@@ -6,7 +6,7 @@
 
 .background-image 
 {
-    background-image: url('https://www.google.com/search?q=nail+tech+working+&sca_esv=a78ac98b1eba8173&rlz=1C1CHBF_enIE1083IE1083&udm=2&biw=1760&bih=821&sxsrf=ACQVn09HSn1gQCooLAa0U-RywNm0ogo_Iw%3A1710332036248&ei=hJjxZYziDr_MhbIPyP2H-Aw&ved=0ahUKEwiMtN-rm_GEAxU_ZkEAHcj-Ac8Q4dUDCBA&uact=5&oq=nail+tech+working+&gs_lp=Egxnd3Mtd2l6LXNlcnAiEm5haWwgdGVjaCB3b3JraW5nIDIHEAAYgAQYGDIHEAAYgAQYGDIHEAAYgAQYGEjeIlCQHFiQHHADeACQAQCYASqgASqqAQExuAEDyAEA-AEBmAIBoAIumAMAiAYBkgcBMaAH_gE&sclient=gws-wiz-serp#vhid=UZQoeMdghPo7dM&vssid=mosaic');
+    background-image: src('public/images/images.jpeg');
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
