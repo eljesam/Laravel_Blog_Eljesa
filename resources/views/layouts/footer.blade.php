@@ -66,22 +66,22 @@
             <ul class="py-4 sm:text-s pt-4 text-gray-400">
                 <li class="pb-1">
                     <a href="/">
-                        Why we love tech
+                        Why Russian Manicure is the right choice
                     </a>
                 </li>
                 <li class="pb-1">
                     <a href="/">
-                        Why we love design
+                        Why we love nail art
                     </a>
                 </li>
                 <li class="pb-1">
                     <a href="/">
-                        Why to use Laravel
+                        Why to choose nail extensions
                     </a>
                 </li>
                 <li class="pb-1">
                     <a href="/">
-                        Why PHP is the best
+                        Why nail care is important
                     </a>
                 </li>
             </ul>

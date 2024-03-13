@@ -5,7 +5,7 @@
         <div class="flex text-gray-100 pt-10">
             <div class="m-auto pt-4 pb-16 sm:m-auto w-4/5 block text-center">
                 <h1 class="sm:text-white text-5xl uppercase font-bold text-shadow-md pb-14">
-                    Do you want to become a developer?
+                    Do you want to learn more about your nails?
                 </h1>
                 <a 
                     href="/blog"
@@ -23,7 +23,7 @@
 
         <div class="m-auto sm:m-auto text-left w-4/5 block">
             <h2 class="text-3xl font-extrabold text-gray-600">
-                Struggling to be a better web developer?
+                Looking for a nail technician you can trust?
             </h2>
             
             <p class="py-8 text-gray-500 text-s">
@@ -44,20 +44,20 @@
 
     <div class="text-center p-15 bg-black text-white">
         <h2 class="text-2xl pb-5 text-l"> 
-            I'm an expert in...
+            I'm a professional in...
         </h2>
 
         <span class="font-extrabold block text-4xl py-1">
-            Ux Design
+            Russian Manicure
         </span>
         <span class="font-extrabold block text-4xl py-1">
-            Project Management
+            Nail Art
         </span>
         <span class="font-extrabold block text-4xl py-1">
-            Digital Strategy
+            Nail Extensions
         </span>
         <span class="font-extrabold block text-4xl py-1">
-            Backend Development
+            Nail Care
         </span>
     </div>
 
@@ -79,7 +79,7 @@
         <div class="flex bg-yellow-700 text-gray-100 pt-10">
             <div class="m-auto pt-4 pb-16 sm:m-auto w-4/5 block">
                 <span class="uppercase text-xs">
-                    PHP
+                    Nail Health
                 </span>
 
                 <h3 class="text-xl font-bold py-10">
