@@ -4,7 +4,7 @@
     <div class="background-image grid grid-cols-1 m-auto">
         <div class="flex text-gray-100 pt-10">
             <div class="m-auto pt-4 pb-16 sm:m-auto w-4/5 block text-center">
-                <h1 class="sm:text-white text-5xl uppercase font-bold text-shadow-md pb-14">
+                <h1 class="sm:text-black text-5xl uppercase font-bold text-shadow-md pb-14">
                     Do you want to learn more about your nails?
                 </h1>
                 <a 
@@ -18,7 +18,7 @@
 
     <div class="sm:grid grid-cols-2 gap-20 w-4/5 mx-auto py-15 border-b border-gray-200">
         <div>
-            <img src="public/images/images.jpeg" width="700" alt="">
+            <img src="images/images.jpeg" width="700" alt="">
         </div>
 
         <div class="m-auto sm:m-auto text-left w-4/5 block">

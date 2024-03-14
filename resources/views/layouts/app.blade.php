@@ -20,11 +20,11 @@
         <header class="bg-gray-800 py-6">
             <div class="container mx-auto flex justify-between items-center px-6">
                 <div>
-                    <a href="{{ url('/') }}" class="text-lg font-semibold text-gray-100 no-underline">
+                    <a href="{{ url('/') }}" class="text-lg font-semibold text-black-100 no-underline">
                         {{ config('app.name', 'Laravel') }}
                     </a>
                 </div>
-                <nav class="space-x-4 text-gray-300 text-sm sm:text-base">
+                <nav class="space-x-4 text-black-300 text-sm sm:text-base">
                     <a class="no-underline hover:underline" href="/">Home</a>
                     <a class="no-underline hover:underline" href="/blog">Blog</a>
                     <a class="no-underline hover:underline" href="/about">About</a>
