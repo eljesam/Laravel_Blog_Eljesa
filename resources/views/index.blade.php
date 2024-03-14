@@ -2,7 +2,7 @@
 
 @section('content')
     <div class="background-image grid grid-cols-1 m-auto">
-        <div class="flex text-gray-100 pt-10">
+        <div class="flex text-black-100 pt-10">
             <div class="m-auto pt-4 pb-16 sm:m-auto w-4/5 block text-center">
                 <h1 class="sm:text-black text-5xl uppercase font-bold text-shadow-md pb-14">
                     Do you want to learn more about your nails?
@@ -76,7 +76,7 @@
     </div>
 
     <div class="sm:grid grid-cols-2 w-4/5 m-auto">
-        <div class="flex bg-yellow-700 text-gray-100 pt-10">
+        <div class="flex bg-gray-700 text-black-100 pt-10">
             <div class="m-auto pt-4 pb-16 sm:m-auto w-4/5 block">
                 <span class="uppercase text-xs">
                     Nail Health
@@ -88,7 +88,7 @@
 
                 <a 
                     href=""
-                    class="uppercase bg-transparent border-2 border-gray-100 text-gray-100 text-xs font-extrabold py-3 px-5 rounded-3xl">
+                    class="uppercase bg-transparent border-2 border-black-100 text-black-100 text-xs font-extrabold py-3 px-5 rounded-3xl">
                     Find Out More
                 </a>
             </div>
