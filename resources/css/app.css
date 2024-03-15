@@ -6,7 +6,7 @@
 
 .background-image 
 {
-    background-image: src('images/images.jpeg');
+    background-image: url('https://www.constantcontact.com/blog/wp-content/uploads/2021/03/Blog-header-5-2.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
