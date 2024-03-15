@@ -1,8 +1,12 @@
 @extends('layouts.app')
 
 @section('content')
-    <h1>Contact Page</h1>
-    <p>Welcome to the contact page!</p>
+<div class="contact">
+<header class="font-semibold bg-gray-200 text-gray-700 py-5 px-6 sm:py-6 sm:px-8 sm:rounded-t-md">
+                    {{ __('Contact') }}
+                   
+                </header>
+   
     <form action="/contact" method="POST">
         @csrf
         <label for="name">Name:</label>
@@ -15,5 +19,7 @@
         <textarea name="comment" id="comment"></textarea>
         <br>
         <button type="submit">Send</button>
+
     </form>
+</div>
 @endsection
