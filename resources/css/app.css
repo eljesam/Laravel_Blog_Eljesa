@@ -14,15 +14,11 @@
     height: 600px;
 }
 
-/*.background-image 
-{
-    background-image: url('file:///C:/Users/eljes/Desktop/me.jpg');
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    height: 600px;
-}*/
+
+
+
+
+/*about*/
 
 .heading{
     width: 90%;
@@ -60,4 +56,21 @@
     width: 90%;
     margin: 0 auto;
     padding: 10px 20px;
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.about-image{
+flex: 1;
+margin-right: 40px;
+overflow: hidden;
+}
+.about-image img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    transition: 0.5 ease;
 }
