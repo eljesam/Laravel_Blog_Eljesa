@@ -6,6 +6,7 @@ use Illuminate\Support\Facades\Schema;
 
 class ContactPageTable extends Migration
 {
+  
     /**
      * Run the migrations.
      *
@@ -13,7 +14,15 @@ class ContactPageTable extends Migration
      */
     public function up()
     {
-        //
+        Schema::create('contacts', function (Blueprint $table) {
+            $table->id();
+            $table->string('name');
+            $table->string('surname');
+            $table->string('email');
+            $table->text('comment');
+            $table->timestamps();
+        });
+        
     }
 
     /**
