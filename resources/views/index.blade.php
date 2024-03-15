@@ -9,7 +9,7 @@
                 </h1>
                 <a 
                     href="/blog"
-                    class="text-center bg-gray-50 text-gray-700 py-2 px-4 font-bold text-xl uppercase">
+                    class="text-center bg-pink-200 text-black-700 py-2 px-4 font-bold text-xl uppercase">
                     Read More
                 </a>
             </div>
@@ -42,7 +42,7 @@
         </div>
     </div>
 
-    <div class="text-center p-15 bg-black text-white">
+    <div class="text-center p-15 bg-gray-900 text-white">
         <h2 class="text-2xl pb-5 text-l"> 
             I'm a professional in...
         </h2>
@@ -92,6 +92,25 @@
                     Find Out More
                 </a>
             </div>
+            
+        </div>
+        <div class="flex bg-gray-700 text-black-100 pt-10">
+            <div class="m-auto pt-4 pb-16 sm:m-auto w-4/5 block">
+                <span class="uppercase text-xs">
+                    Nail Health
+                </span>
+
+                <h3 class="text-xl font-bold py-10">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas necessitatibus dolorum error culpa laboriosam. Enim voluptas earum repudiandae consequuntur ad? Expedita labore aspernatur facilis quasi ex? Nemo hic placeat et?
+                </h3>
+
+                <a 
+                    href=""
+                    class="uppercase bg-transparent border-2 border-black-100 text-black-100 text-xs font-extrabold py-3 px-5 rounded-3xl">
+                    Find Out More
+                </a>
+            </div>
+            
         </div>
         <div>
             <img src="https://cdn.pixabay.com/photo/2014/05/03/01/03/laptop-336704_960_720.jpg" alt="">
