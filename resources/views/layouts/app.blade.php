@@ -17,7 +17,7 @@
 </head>
 <body class="bg-gray-100 h-screen antialiased leading-none font-sans">
     <div id="app">
-        <header class="bg-gray-800 py-6">
+    <header class="bg-gray-800 py-6">
             <div class="container mx-auto flex justify-between items-center px-6">
                 <div>
                     <a href="{{ url('/') }}" class="text-lg font-semibold text-black-100 no-underline">
@@ -29,6 +29,7 @@
                     <a class="no-underline hover:underline" href="/blog">Blog</a>
                     <a class="no-underline hover:underline" href="/about">About</a>
                     <a class="no-underline hover:underline" href="/contact">Contact</a>
+                
                     @guest
                         <a class="no-underline hover:underline" href="{{ route('login') }}">{{ __('Login') }}</a>
                         @if (Route::has('register'))
@@ -49,13 +50,7 @@
             </div>
         </header>
 
-        <div>
-            @yield('content')
-        </div>
-
-        <div>
-            @include('layouts.footer')
-        </div>
+        @yield('content')
     </div>
 </body>
 </html>
