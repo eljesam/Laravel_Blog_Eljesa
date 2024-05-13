@@ -2,14 +2,14 @@
 
 @section('content')
     <div class="background-image grid grid-cols-1 m-auto">
-        <div class="flex text-gray-100 pt-10">
+        <div class="flex text-black-100 pt-10">
             <div class="m-auto pt-4 pb-16 sm:m-auto w-4/5 block text-center">
-                <h1 class="sm:text-white text-5xl uppercase font-bold text-shadow-md pb-14">
-                    Do you want to learn more about dinosaurs?
+                <h1 class="sm:text-black text-5xl uppercase font-bold text-shadow-md pb-14">
+                    A book is a dream that you hold in your hands.
                 </h1>
                 <a 
                     href="/blog"
-                    class="text-center bg-secondary text-white py-2 px-4 font-bold text-xl uppercase">
+                    class="text-center bg-pink-200 text-black-700 py-2 px-4 font-bold text-xl uppercase">
                     Read More
                 </a>
             </div>
@@ -18,46 +18,46 @@
 
     <div class="sm:grid grid-cols-2 gap-20 w-4/5 mx-auto py-15 border-b border-gray-200">
         <div>
-            <img class="rounded-lg" src="https://m.media-amazon.com/images/I/71Anp69Sb9L._AC_UF1000,1000_QL80_.jpg" width="700" alt="">
+            <img src="images/image.jpg" width="700" alt="">
         </div>
 
         <div class="m-auto sm:m-auto text-left w-4/5 block">
             <h2 class="text-3xl font-extrabold text-gray-600">
-                Explore the Lost World of Dinosaurs
+                All things books
             </h2>
             
             <p class="py-8 text-gray-500 text-s">
-                Welcome to our prehistoric paradise, where you can journey back in time to the Mesozoic Era and discover the fascinating world of dinosaurs. Immerse yourself in the wonders of ancient life, from the towering Tyrannosaurus Rex to the majestic Brachiosaurus.
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus.
             </p>
 
             <p class="font-extrabold text-gray-600 text-s pb-9">
-                Our website is your ultimate destination for all things dinosaur-related. Whether you're a seasoned paleontologist or a curious amateur, you'll find a treasure trove of information, articles, videos, and interactive exhibits that will transport you to a time when giants roamed the Earth. Join us on this incredible journey of exploration and discovery!
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente magnam vero nostrum! Perferendis eos molestias porro vero. Vel alias.
             </p>
 
             <a 
-                href="/about"
-                class="uppercase bg-secondary text-white text-s font-extrabold py-3 px-8 rounded-3xl">
+                href="/blog"
+                class="uppercase bg-blue-500 text-gray-100 text-s font-extrabold py-3 px-8 rounded-3xl">
                 Find Out More
             </a>
         </div>
     </div>
 
-    <div class="text-center p-15 bg-accent text-white">
+    <div class="text-center p-15 bg-gray-900 text-white">
         <h2 class="text-2xl pb-5 text-l"> 
-            I'm Passionate about...
+            Top genres of the year
         </h2>
 
         <span class="font-extrabold block text-4xl py-1">
-            Paleontology
+            Horror
         </span>
         <span class="font-extrabold block text-4xl py-1">
-            Evolution
+            Fantasy
         </span>
         <span class="font-extrabold block text-4xl py-1">
-            Fossils
+            Romance
         </span>
         <span class="font-extrabold block text-4xl py-1">
-            Conservation
+            Mystery
         </span>
     </div>
 
@@ -71,30 +71,49 @@
         </h2>
 
         <p class="m-auto w-4/5 text-gray-500">
-            Explore our latest discoveries and insights in the ever-evolving world of paleontology. From groundbreaking fossil finds to cutting-edge research, our recent posts keep you at the forefront of dinosaur science. Dive into fascinating articles, uncovering the mysteries of ancient life, and stay up-to-date with the latest developments in the field. Whether you're a seasoned enthusiast or a curious newcomer, there's always something new to learn and explore in the realm of paleontology.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque exercitationem saepe enim veritatis, eos temporibus quaerat facere consectetur qui.
         </p>
     </div>
 
     <div class="sm:grid grid-cols-2 w-4/5 m-auto">
-        <div class="flex bg-accent text-white pt-10">
+        <div class="flex bg-gray-700 text-black-100 pt-10">
             <div class="m-auto pt-4 pb-16 sm:m-auto w-4/5 block">
                 <span class="uppercase text-xs">
-                    Fossil Fashion: How Some Dinosaurs Sported Feathers Before Birds
+                    Books
                 </span>
 
                 <h3 class="text-xl font-bold py-10">
-                    Dive into the fascinating world of paleo-fashion as we explore how some dinosaurs rocked feathers long before birds took to the skies. From the iconic Archaeopteryx to the fearsome Tyrannosaurus Rex, discover the diverse array of feathered dinosaurs and unravel the mysteries behind their stylish adornments. Join us on a journey through time as we uncover the evolution of fossil fashion and its implications for our understanding of prehistoric life.
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas necessitatibus dolorum error culpa laboriosam. Enim voluptas earum repudiandae consequuntur ad? Expedita labore aspernatur facilis quasi ex? Nemo hic placeat et?
                 </h3>
 
                 <a 
-                    href="/blog/fossil-fashion-how-some-dinosaurs-sported-feathers-before-birds-2"
-                    class="uppercase bg-secondary border-2 border-primary text-white text-xs font-extrabold py-3 px-5 rounded-3xl">
+                    href=""
+                    class="uppercase bg-transparent border-2 border-black-100 text-black-100 text-xs font-extrabold py-3 px-5 rounded-3xl">
                     Find Out More
                 </a>
             </div>
+            
+        </div>
+        <div class="flex bg-gray-700 text-black-100 pt-10">
+            <div class="m-auto pt-4 pb-16 sm:m-auto w-4/5 block">
+                <span class="uppercase text-xs">
+                    Nail Health
+                </span>
+
+                <h3 class="text-xl font-bold py-10">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas necessitatibus dolorum error culpa laboriosam. Enim voluptas earum repudiandae consequuntur ad? Expedita labore aspernatur facilis quasi ex? Nemo hic placeat et?
+                </h3>
+
+                <a 
+                    href=""
+                    class="uppercase bg-transparent border-2 border-black-100 text-black-100 text-xs font-extrabold py-3 px-5 rounded-3xl">
+                    Find Out More
+                </a>
+            </div>
+            
         </div>
         <div>
-            <img class="rounded-lg" src="https://scitechdaily.com/images/Small-Feathered-Dinosaur-Art-Concept.jpg" alt="">
+            <img src="https://cdn.pixabay.com/photo/2014/05/03/01/03/laptop-336704_960_720.jpg" alt="">
         </div>
     </div>
 @endsection

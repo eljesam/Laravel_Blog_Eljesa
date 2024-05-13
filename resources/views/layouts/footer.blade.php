@@ -1,64 +1,93 @@
-<footer class="bg-primary py-10 mt-20">
-    <div class="container mx-auto grid grid-cols-1 sm:grid-cols-3 gap-8">
-        <!-- Pages Section -->
-        <div class="text-white">
-            <h3 class="font-bold text-lg mb-4">Pages</h3>
-            <ul class="text-base">
-                <li class="pb-2">
-                    <a href="/" class="hover:text-gray-300">Home</a>
+<footer class="bg-gray-800 py-20 mt-20">
+    <div class="sm:grid grid-cols-3 w-4/5 pb-10 m-auto border-b-2 border-gray-700">
+        <div>
+            <h3 class="text-l sm:font-bold text-gray-100">
+                Pages
+            </h3>
+
+            <ul class="py-4 sm:text-s pt-4 text-gray-400">
+                <li class="pb-1">
+                    <a href="/">
+                        Home
+                    </a>
                 </li>
-                <li class="pb-2">
-                    <a href="/blog" class="hover:text-gray-300">Blog</a>
+                <li class="pb-1">
+                    <a href="/blog">
+                        Blog
+                    </a>
                 </li>
-                <li class="pb-2">
-                    <a href="/login" class="hover:text-gray-300">Login</a>
+                <li class="pb-1">
+                    <a href="/login">
+                        Login
+                    </a>
                 </li>
-                <li class="pb-2">
-                    <a href="/register" class="hover:text-gray-300">Register</a>
+                <li class="pb-1">
+                    <a href="/register">
+                        Register
+                    </a>
                 </li>
             </ul>
         </div>
 
-        <!-- Find Us Section -->
-        <div class="text-white">
-            <h3 class="font-bold text-lg mb-4">Find Us</h3>
-            <ul class="text-base">
-                <li class="pb-2">
-                    <a href="/" class="hover:text-gray-300">What we do</a>
+        <div>
+            <h3 class="text-l sm:font-bold text-gray-100">
+                Find Us
+            </h3>
+
+            <ul class="py-4 sm:text-s pt-4 text-gray-400">
+                <li class="pb-1">
+                    <a href="/">
+                        What we do
+                    </a>
                 </li>
-                <li class="pb-2">
-                    <a href="/" class="hover:text-gray-300">Address</a>
+                <li class="pb-1">
+                    <a href="/">
+                        Address
+                    </a>
                 </li>
-                <li class="pb-2">
-                    <a href="/" class="hover:text-gray-300">Phone</a>
+                <li class="pb-1">
+                    <a href="/">
+                        Phone
+                    </a>
                 </li>
-                <li class="pb-2">
-                    <a href="/" class="hover:text-gray-300">Contact</a>
+                <li class="pb-1">
+                    <a href="/">
+                        Contact
+                    </a>
                 </li>
             </ul>
         </div>
 
-        <!-- Latest Posts Section -->
-        <div class="text-white">
-            <h3 class="font-bold text-lg mb-4">Latest posts</h3>
-            <ul class="text-base">
-                <li class="pb-2">
-                    <a href="/blog/the-bizarre-beauty-of-the-deinocheirus-a-dino-with-gigantic-arms-and-no-claws" class="hover:text-gray-300">The Bizarre Beauty of the Deinocheirus</a>
+        <div>
+            <h3 class="text-l sm:font-bold text-gray-100">
+                Latest posts
+            </h3>
+
+            <ul class="py-4 sm:text-s pt-4 text-gray-400">
+                <li class="pb-1">
+                    <a href="/">
+                        Why we love books
+                    </a>
                 </li>
-                <li class="pb-2">
-                    <a href="/blog/fossil-fashion-how-some-dinosaurs-sported-feathers-before-birds-2" class="hover:text-gray-300">Fossil Fashion: How Some Dinosaurs Sported Feathers Before Birds</a>
+                <li class="pb-1">
+                    <a href="/">
+                      Just another day of reading
+                    </a>
                 </li>
-                <li class="pb-2">
-                    <a href="/blog/the-mystery-of-the-duck-billed-dinosaur-how-the-parasaurolophus-used-its-crest" class="hover:text-gray-300">The Mystery of the Duck-Billed Dinosaur</a>
+                <li class="pb-1">
+                    <a href="/">
+                        What is the best book
+                    </a>
                 </li>
-                <li class="pb-2">
-                    <a href="/blog/jurassic-jaws-unraveling-the-enigma-of-the-helicoprion-s-spiral-teeth" class="hover:text-gray-300">Jurassic Jaws: Unraveling the Enigma of the Helicoprion's Spiral Teeth</a>
+                <li class="pb-1">
+                    <a href="/">
+                        Books are like friends
+                    </a>
                 </li>
             </ul>
         </div>
     </div>
-
-    <p class="text-center text-white text-sm mt-6">
-        &copy; 2017-2021 Code With Dary. All Rights Reserved
+    <p class="w-25 w-4/5 pb-3 m-auto text-xs text-gray-100 pt-6">
+        Copyright &copy; 2024 | All rights reserved
     </p>
 </footer>

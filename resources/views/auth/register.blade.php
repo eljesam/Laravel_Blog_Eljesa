@@ -1,26 +1,17 @@
 @extends('layouts.app')
 
 @section('content')
-<main class="container mx-auto max-w-lg mt-10">
-    @if(count($errors) > 0)
-    <div style="color:red">
-        @foreach ($errors->all() as $message)
-            <ul>
-                <li>{{$message}}</li>
-            </ul>
-        @endforeach
-    </div>
-    @endif
+<main class="sm:container sm:mx-auto sm:max-w-lg sm:mt-10">
     <div class="flex">
         <div class="w-full">
-            <section class="flex flex-col break-words bg-white border rounded-md shadow-sm">
+            <section class="flex flex-col break-words bg-white sm:border-1 sm:rounded-md sm:shadow-sm sm:shadow-lg">
 
-                <header class="font-semibold bg-accent text-white py-5 px-6 sm:px-8 rounded-t-md text-2xl">
+                <header class="font-semibold bg-gray-200 text-gray-700 py-5 px-6 sm:py-6 sm:px-8 sm:rounded-t-md">
                     {{ __('Register') }}
                 </header>
 
-                <form class="px-6 space-y-6 sm:px-8 sm:space-y-8" method="POST"
-                    action="{{ route('register') }}" enctype="multipart/form-data">
+                <form class="w-full px-6 space-y-6 sm:px-10 sm:space-y-8" method="POST"
+                    action="{{ route('register') }}">
                     @csrf
 
                     <div class="flex flex-wrap">
@@ -28,11 +19,11 @@
                             {{ __('Name') }}:
                         </label>
 
-                        <input id="name" type="text" class="form-input w-full border-secondary focus:border-primary @error('name')  border-red-500 @enderror"
+                        <input id="name" type="text" class="form-input w-full @error('name')  border-red-500 @enderror"
                             name="name" value="{{ old('name') }}" required autocomplete="name" autofocus>
 
                         @error('name')
-                        <p class="text-red-500 text-xs italic mt-1">
+                        <p class="text-red-500 text-xs italic mt-4">
                             {{ $message }}
                         </p>
                         @enderror
@@ -44,11 +35,11 @@
                         </label>
 
                         <input id="email" type="email"
-                            class="form-input w-full border-secondary focus:border-primary @error('email') border-red-500 @enderror" name="email"
+                            class="form-input w-full @error('email') border-red-500 @enderror" name="email"
                             value="{{ old('email') }}" required autocomplete="email">
 
                         @error('email')
-                        <p class="text-red-500 text-xs italic mt-1">
+                        <p class="text-red-500 text-xs italic mt-4">
                             {{ $message }}
                         </p>
                         @enderror
@@ -60,11 +51,11 @@
                         </label>
 
                         <input id="password" type="password"
-                            class="form-input w-full border-secondary focus:border-primary @error('password') border-red-500 @enderror" name="password"
+                            class="form-input w-full @error('password') border-red-500 @enderror" name="password"
                             required autocomplete="new-password">
 
                         @error('password')
-                        <p class="text-red-500 text-xs italic mt-1">
+                        <p class="text-red-500 text-xs italic mt-4">
                             {{ $message }}
                         </p>
                         @enderror
@@ -75,28 +66,13 @@
                             {{ __('Confirm Password') }}:
                         </label>
 
-                        <input id="password-confirm" type="password" class="form-input w-full border-secondary focus:border-primary"
+                        <input id="password-confirm" type="password" class="form-input w-full"
                             name="password_confirmation" required autocomplete="new-password">
                     </div>
 
                     <div class="flex flex-wrap">
-                        <input type="file" name="icon" id="icon" class="sr-only">
-                        <label for="icon" class="cursor-pointer bg-secondary text-white py-2 px-4 rounded-lg border border-gray-300">
-                            <svg class="w-6 h-6 inline-block" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"></path>
-                            </svg> Choose profile image
-                        </label>
-                        <span id="icon-label" class="ml-2"></span>
-                        @error('icon')
-                        <p class="text-red-500 text-xs italic mt-1">
-                            {{ $message }}
-                        </p>
-                        @enderror
-                    </div>
-
-                    <div class="flex flex-wrap">
                         <button type="submit"
-                            class="w-full select-none font-bold p-3 rounded-lg text-base leading-normal text-white bg-accent hover:bg-primary">
+                            class="w-full select-none font-bold whitespace-no-wrap p-3 rounded-lg text-base leading-normal no-underline text-gray-100 bg-gray-900 hover:bg-gray-800 sm:py-4">
                             {{ __('Register') }}
                         </button>
 
@@ -113,12 +89,4 @@
         </div>
     </div>
 </main>
-
-<script>
-    const iconInput = document.getElementById('icon');
-    const iconLabel = document.getElementById('icon-label');
-    iconInput.addEventListener('change', function() {
-        iconLabel.textContent = this.files[0].name;
-    });
-</script>
 @endsection

@@ -8,7 +8,7 @@ use Cviebrock\EloquentSluggable\Services\SlugService;
 
 class PostsController extends Controller
 {
-
+ 
     public function __construct()
     {
         $this->middleware('auth', ['except' => ['index', 'show']]);
@@ -45,28 +45,16 @@ class PostsController extends Controller
         $request->validate([
             'title' => 'required',
             'description' => 'required',
-            'content' => 'required',
             'image' => 'required|mimes:jpg,png,jpeg|max:5048'
         ]);
 
-        // Get the position of the first semicolon in the title
-        $semicolonPosition = strpos($request->title, ';');
-
-        // If semicolon exists in the title, trim the title until the semicolon
-        if ($semicolonPosition !== false) {
-            $trimmedTitle = substr($request->title, 0, $semicolonPosition);
-        } else {
-            // If no semicolon found, use the original title
-            $trimmedTitle = $request->title;
-        }
-        $newImageName = uniqid() . '-' . $request->$trimmedTitle . '.' . $request->image->extension();
+        $newImageName = uniqid() . '-' . $request->title . '.' . $request->image->extension();
 
         $request->image->move(public_path('images'), $newImageName);
 
         Post::create([
             'title' => $request->input('title'),
             'description' => $request->input('description'),
-            'content' => $request->input('content'),
             'slug' => SlugService::createSlug(Post::class, 'slug', $request->title),
             'image_path' => $newImageName,
             'user_id' => auth()->user()->id
@@ -112,14 +100,12 @@ class PostsController extends Controller
         $request->validate([
             'title' => 'required',
             'description' => 'required',
-            'content' => 'required'
         ]);
 
         Post::where('slug', $slug)
             ->update([
                 'title' => $request->input('title'),
                 'description' => $request->input('description'),
-                'content' => $request->input('content'),
                 'slug' => SlugService::createSlug(Post::class, 'slug', $request->title),
                 'user_id' => auth()->user()->id
             ]);
@@ -143,3 +129,4 @@ class PostsController extends Controller
             ->with('message', 'Your post has been deleted!');
     }
 }
+

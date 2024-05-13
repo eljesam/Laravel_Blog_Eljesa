@@ -6,7 +6,7 @@
 
 .background-image 
 {
-    background-image: url('https://c4.wallpaperflare.com/wallpaper/957/498/540/artwork-digital-art-dinosaurs-apocalyptic-wallpaper-preview.jpg');
+    background-image: url('https://www.bloggingherway.com/wp-content/uploads/2021/05/Styled-Stock-Society-Book-Lover-1-1024x683.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -14,43 +14,154 @@
     height: 600px;
 }
 
-/*youtube iframe*/
-.video {
-    aspect-ratio: 16 / 9;
-    width: 100%;
-  }
-  
-  /*Gallery*/
-  #gallery-container {
+
+
+
+
+/*about*/
+
+.heading{
+    width: 90%;
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px auto;
+
+}
+.heading h1
+{
+    font-size: 50px;
+    color: #000;
+    margin-bottom: 25px;
+    position: relative;
+
+}
+.heading h1::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    display: block;
+    margin: 0 auto;
+    background-color: #f4c2c2;
+}
+.heading p{
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 35px;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.about-image{
+flex: 1;
+margin-right: 40px;
+overflow: hidden;
+}
+.about-image img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    transition: 0.5 ease;
+}
+.about-image img:hover{
+    transform: scale(1.2);
+}
+.about-content{
+    flex: 1;
+}
+.about-content h2{
+    font-size: 23px;
+    color: #333;
+    margin-bottom: 15px;
 }
 
-#gallery-container img {
-    width: 100%; /* Set images to take full width of container */
-    max-width: 450px; /* Set maximum width for larger screens */
-    height: auto; /* Maintain aspect ratio */
-    margin: 10px;
-    border: 10px solid #fefae0;
-    -webkit-filter: sepia(100%);
-    filter: sepia(100%);
-    transition-duration: 1s;
+/*Video Embed*/
+.video-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+    flex-direction: column;
+}
+.video1{
+    flex: 1;
+    width: 100%;
+    height: 100%;
+    border: none;
+
+}
+.video2{
+    flex: 1;
+    width: 100%;
+    height: 100%;
+    border: none;
 }
 
-#gallery-container img:hover {
-    border: 5px solid #fff;
-    -webkit-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    transform: scale(1.1);
-    -webkit-filter: none;
-    filter: none;
-}
+/*Contact*/
 
-/* Media query for smaller screens */
-@media screen and (max-width: 768px) {
-    #gallery-container img {
-        max-width: 100%; /* Set maximum width for smaller screens */
-    }
-}
+.contact {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .contact h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .contact p {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .contact form {
+    display: grid;
+    grid-gap: 10px;
+  }
+  
+  .contact label {
+    font-weight: bold;
+  }
+  
+  .contact input[type="text"],
+  .contact input[type="email"],
+  .contact textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .contact textarea {
+    height: 100px;
+  }
+  
+  .contact button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+  }

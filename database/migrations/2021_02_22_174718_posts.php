@@ -18,7 +18,6 @@ class Posts extends Migration
             $table->string('slug');
             $table->string('title');
             $table->longText('description');
-            $table->longText('content');
             $table->string('image_path');
             $table->timestamps();
             $table->unsignedBigInteger('user_id');
